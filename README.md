@@ -10,7 +10,7 @@ Thanks in advance for any and all work you contribute to Blackeye 2.0!
 ## Support
 
 If you run into an issue or require technical support, please first look through the closed and open **[GitHub Issues](https://github.com/j-dogcoder/Blackeye-2.0/issues)**, as you may find a solution there (or some useful advice, at least).
-We are also working on a suuport discord server witch will be rolling out sometime in the near future.
+We are also working on a suport discord server wtich will be rolling out sometime in the near future.
 
 ## Contact
 
