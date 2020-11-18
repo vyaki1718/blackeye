@@ -1,11 +1,10 @@
 Blackeye 2.0
 =============
 
-## Contributing
+## Contributing 
+We need help! This is a work in progress project migrated from the original blackeye. When contributing to this repository, please first discuss the change you wish to make via issue. Then go ahead and create a branch. You can check out our issues tab for a list of ongoing things that need to be worked on. 
 
-We need help! This is a work in progress project migrated from the original blackeye. If you would like to contribute, go ahead and create a branch. You can check out our issues tab for a list of ongoing things that need to be worked on.
-
-For more details, checkout the CONTRIBUTING.md file.
+For more details, check out the CONTRIBUTING.md file. 
 
 Thanks in advance for any and all work you contribute to Blackeye 2.0!
 
