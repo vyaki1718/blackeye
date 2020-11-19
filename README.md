@@ -15,4 +15,4 @@ We are also working on a suport discord server wtich will be rolling out sometim
 
 ## Contact
 
-Pluto's core developer is [J-dogcoder](https://github.com/j-dogcoder) Any questions about the Pluto Client can be emailed to [j.dogcoder@gmail.com](mailto:j.dogcoder@gmail.com). However, for technical support and other problems, please go through the channels mentioned above first.
+Blackeye 2.0's core developer is [J-dogcoder](https://github.com/j-dogcoder) Any questions about the Pluto Client can be emailed to [j.dogcoder@gmail.com](mailto:j.dogcoder@gmail.com). However, for technical support and other problems, please go through the channels mentioned above first.
