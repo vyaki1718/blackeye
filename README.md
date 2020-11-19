@@ -1,8 +1,8 @@
 Blackeye 2.0
 =============
-
+[![Open Source Helpers](https://www.codetriage.com/j-dogcoder/blackeye-2.0/badges/users.svg)](https://www.codetriage.com/j-dogcoder/blackeye-2.0)
 ## Contributing 
-We need help! This is a work in progress project migrated from the original blackeye. When contributing to this repository, please first discuss the change you wish to make via issue. Then go ahead and create a branch. You can check out our issues tab for a list of ongoing things that need to be worked on. 
+We need help! This is a work in progress project migrated from the original blackeye. When contributing to this repository, please first discuss the change you wish to make via issue. Then go ahead and create a branch. You can check out our issues tab for a list of ongoing things that need to be worked on. We are also on CodeTriage! You can find us by clicking the code helpers button above.
 
 For more details, check out the CONTRIBUTING.md file. 
 
