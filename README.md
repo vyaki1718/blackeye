@@ -8,6 +8,22 @@ For more details, check out the CONTRIBUTING.md file.
 
 Thanks in advance for any and all work you contribute to Blackeye 2.0!
 
+## Legal disclaimer:
+Usage of BlackEye for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program. Only use for educational purposes.
+
+
+### Usage:
+```
+git clone https://github.com/j-dogcoder/Blackeye-2.0.git
+cd blackeye
+bash blackeye.sh
+./ngrok authtoken <your_auth_token>
+bash blackeye.sh
+```
+
+#### Note: 
+Verify your key from ngrok is important.
+
 ## Support
 
 If you run into an issue or require technical support, please first look through the closed and open **[GitHub Issues](https://github.com/j-dogcoder/Blackeye-2.0/issues)**, as you may find a solution there (or some useful advice, at least).
