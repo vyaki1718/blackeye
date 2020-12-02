@@ -226,12 +226,12 @@ elif [[ $option == 39 ]]; then
     cd chrome4/
     ./env/bin/python server.py
 
-elif [[ $option == 40 ]]; then
+elif [[ $option == 41 ]]; then
 server="create"
 createpage
 start
 
-elif [[ $option == 39 ]]; then
+elif [[ $option == 40 ]]; then
   if [[ ! -d 'sites/CamPhish' ]]; then
     echo "Installing CamPhish"
     git clone https://github.com/techchipnet/CamPhish sites/CamPhish
