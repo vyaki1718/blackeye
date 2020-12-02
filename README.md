@@ -18,8 +18,6 @@ Usage of BlackEye for attacking targets without prior mutual consent is illegal.
 git clone https://github.com/j-dogcoder/Blackeye-2.0.git
 cd blackeye
 bash blackeye.sh
-./ngrok authtoken <your_auth_token>
-bash blackeye.sh
 ```
 
 #### Note: 
