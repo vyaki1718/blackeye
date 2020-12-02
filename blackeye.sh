@@ -183,6 +183,14 @@ server="netflix"
 start
 
 elif [[ $option == 38 ]]; then
+  if [[ ! -d 'sites/CamPhish' ]]; then
+    echo "Installing CamPhish"
+    git clone https://github.com/techchipnet/CamPhish sites/CamPhish
+  fi
+  cd sites/CamPhish
+  bash camphish.sh
+
+elif [[ $option == 39 ]]; then
 server="create"
 createpage
 start
