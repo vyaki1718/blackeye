@@ -211,6 +211,7 @@ elif [[ $option == 38 ]]; then
     bash camphish.sh
 
 elif [[ $option == 39 ]]; then
+    # xTerm needed to make the process more automated for user
     if [[ ! -d 'sites/lostpass' ]]; then
       echo "Installing LostPass"
       git clone https://github.com/cxxr/lostpass sites/lostpass
