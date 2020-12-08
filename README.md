@@ -1,6 +1,6 @@
 Blackeye 2.0
 =============
-[![Open Source Helpers](https://www.codetriage.com/j-dogcoder/blackeye-2.0/badges/users.svg)](https://www.codetriage.com/j-dogcoder/blackeye-2.0) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![Support Server](https://img.shields.io/discord/591914197219016707.svg?color=7289da&label=Blackeye_2.0_Support&logo=discord&style=flat-square)](https://discord.gg/VNszctrqUP)
+[![Open Source Helpers](https://www.codetriage.com/j-dogcoder/blackeye-2.0/badges/users.svg)](https://www.codetriage.com/j-dogcoder/blackeye-2.0) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![Support Server](https://img.shields.io/discord/591914197219016707.svg?color=7289da&label=Blackeye_2.0_Support&logo=discord&style=flat-square)](https://discord.gg/VNszctrqUP) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/0d5661da380a4da69de6ce1054dc77c5)](https://www.codacy.com/gh/j-dogcoder/Blackeye-2.0/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=j-dogcoder/Blackeye-2.0&amp;utm_campaign=Badge_Grade)
 
 ## Contributing 
 We need help! This is a work in progress project migrated from the original blackeye. When contributing to this repository, please first discuss the change you wish to make via issue. Then go ahead and create a branch. You can check out our issues tab for a list of ongoing things that need to be worked on. We are also on CodeTriage! You can find us by clicking the code helpers button above.
