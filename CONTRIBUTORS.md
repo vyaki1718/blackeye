@@ -1,7 +1,7 @@
 # Contributors List 
 
 ## Main Project 
-  @j-dogcoder
+  @j-dogcoder<br />
   @s1l3nt78
 
 ## Intergration Work
